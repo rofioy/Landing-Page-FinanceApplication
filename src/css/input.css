@@ -31,3 +31,7 @@
 nav.animate__animated.animate__backInDown {
   --animate-duration: 3s;
 }
+
+html {
+  scroll-behavior: smooth;
+}
