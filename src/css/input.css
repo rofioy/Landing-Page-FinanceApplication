@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.btn {
+  @apply shadow-md cursor-pointer py-2 px-6 rounded-md transition duration-300;
+}
+
+.btn-lightBlue {
+  @apply bg-lightBlue-0;
+}
+
+.btn-mediumBlue {
+  @apply bg-mediumBlue-0;
+}
+.btn-mediumYellow {
+  @apply bg-mediumYellow-0;
+}
+
+.btn-hero.animate__animated.animate__backInLeft {
+  --animate-duration: 2.5s;
+}
+.shape-hero.animate__animated.animate__backInRight {
+  --animate-duration: 3.5s;
+}
+.hero-img.animate__animated.animate__bounceInRight {
+  --animate-duration: 4.5s;
+}
+nav.animate__animated.animate__backInDown {
+  --animate-duration: 3s;
+}
